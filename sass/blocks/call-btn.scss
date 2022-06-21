@@ -1,0 +1,33 @@
+.call-btn {
+  width: 60px;
+  height: 41px;
+  background-color: $color-btn;
+  border-radius: 3px;
+
+  @media (min-width: $tablet-width) {
+    min-width: 165px;
+    min-height: 45px;
+    border: 1px solid $color-btn;
+    background-color: transparent;
+    padding-top: 11px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    min-width: 170px;
+  }
+}
+
+.call-btn__text {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: initial;
+    font-size: 16px;
+    font-weight: 700;
+    color: $color-btn;
+    line-height: 18px;
+  }
+
+}
