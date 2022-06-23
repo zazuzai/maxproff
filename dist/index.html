@@ -5,6 +5,9 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="/index.3ca998d7.css">
+      <link rel="preload" href="/roboto-v30-latin_cyrillic-regular.ce6dead0.woff2" as="font" type="font/woff2" crossorigin="">
+      <link rel="preload" href="/roboto-v30-latin_cyrillic-700.dc34db6c.woff2" as="font" type="font/woff2" crossorigin="">
+      <link rel="preload" href="/roboto-v30-latin_cyrillic-500.f9067366.woff2" as="font" type="font/woff2" crossorigin="">
       <title>MaxProff</title>
   </head>
   <body class="page__body">
@@ -15,7 +18,8 @@
         <path d="M57.0661 1.736H62.6661V21H57.0661V1.736ZM63.8421 10.724H64.5141C65.1114 10.724 65.5501 10.7053 65.8301 10.668C66.1288 10.612 66.3621 10.5 66.5301 10.332C66.6981 10.1827 66.8008 9.968 66.8381 9.688C66.8941 9.38933 66.9221 8.95067 66.9221 8.372C66.9221 7.79333 66.8941 7.364 66.8381 7.084C66.8008 6.78533 66.6981 6.552 66.5301 6.384C66.3621 6.23467 66.1288 6.14133 65.8301 6.104C65.5314 6.048 65.0928 6.02 64.5141 6.02H63.8421V1.736H66.1661C67.5474 1.736 68.6674 1.876 69.5261 2.156C70.4034 2.41733 71.0661 2.828 71.5141 3.388C71.9434 3.91067 72.2328 4.57333 72.3821 5.376C72.5314 6.16 72.6061 7.15867 72.6061 8.372C72.6061 9.52933 72.5314 10.4907 72.3821 11.256C72.2514 12.0213 71.9808 12.6653 71.5701 13.188C71.1034 13.7853 70.4314 14.2427 69.5541 14.56C68.6954 14.8587 67.5661 15.008 66.1661 15.008H63.8421V10.724Z" fill="#6CAC3D"></path>
       </symbol>
     </svg>
-    <header class="page__header header">
+    <header class="page__header header container">
+      <h1 class="visually-hidden">Строительная компания MaxProff</h1>
       <nav class="header__nav header__nav--closed">
         <button class="header__toggle" type="button">
           <span class="visually-hidden">Открыть меню</span>
@@ -27,6 +31,7 @@
           <span class="visually-hidden">Логотип MaxProff</span>
         </a>
         <div class="header__contacts header-contacts">
+          <h2 class="visually-hidden">Наши контакты</h2>
           <div class="header-contacts__phone header-phone">
             <a class="header-phone__link" href="#">+7 (233) 222-22-22</a>
             <p class="header-phone__description">08:00 - 22:00, без выходных</p>
@@ -53,6 +58,7 @@
           <span class="call-btn__text">Заказать завонок</span>
         </a>
         <div class="header__list-container">
+          <h2 class="visually-hidden">Список услуг</h2>
           <ul class="header__list service-list">
             <li class="service-list__item">
               <a href="#" class="service-list__link">Ремонт квартир</a>
@@ -105,6 +111,33 @@
         </div>
       </nav>
     </header>
+    <main>
+      <section class="page__promo promo">
+        <div class="promo__container container">
+          <h2 class="promo__title">Ремонт квартир <br>
+            в Москве и МО</h2>
+          <p class="promo__price">
+            от
+            <span class="promo__summ">2450</span>
+            руб/м<sup>2</sup>
+          </p>
+          <ul class="promo__benefits benefits-list">
+            <li class="benefits-list__item benefits-list__item--pay">
+              Оплата по факту приёма работ
+            </li>
+            <li class="benefits-list__item benefits-list__item--free">
+              Замер и составление сметы БЕСПЛАТНО
+            </li>
+            <li class="benefits-list__item benefits-list__item--visit">
+              Выезд сметчика
+            </li>
+            <li class="benefits-list__item benefits-list__item--guarantee">
+              Гарантия 3 года
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
     <script src="/index.1c974c2f.js"></script>
   </body>
 </html>

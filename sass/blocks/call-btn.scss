@@ -3,6 +3,9 @@
   height: 41px;
   background-color: $color-btn;
   border-radius: 3px;
+  background-image: url(/img/call-btn.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 
   @media (min-width: $tablet-width) {
     min-width: 165px;
@@ -12,11 +15,17 @@
     padding-top: 11px;
     text-align: center;
     text-decoration: none;
+    background-image: none;
   }
 
   @media (min-width: $desktop-width) {
     min-width: 170px;
   }
+}
+
+.call-btn:hover {
+  background-color: #52971f;
+  border-color: #52971f;
 }
 
 .call-btn__text {
@@ -29,5 +38,8 @@
     color: $color-btn;
     line-height: 18px;
   }
+}
 
+.call-btn:hover .call-btn__text {
+  color: #ffffff;
 }

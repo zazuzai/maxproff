@@ -1,1 +1,21 @@
+.container {
+  width: 100%;
+  min-width: 414px;
+  padding-left: 1.45%;
+  padding-right: 1.45%;
+  margin-left: auto;
+  margin-right: auto;
 
+  @media (min-width: $tablet-width) {
+    width: 640px;
+    padding-left: 5.88%;
+    padding-right: 5.88%;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1200px;
+    padding-left: 3.23%;
+    padding-right: 3.23%;
+  }
+
+}
