@@ -1,0 +1,33 @@
+{
+  "name": "maxproff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist/* && parcel build index.html && rm dist/index.html",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zazuzai/maxproff.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zazuzai/maxproff/issues"
+  },
+  "homepage": "https://github.com/zazuzai/maxproff#readme",
+  "dependencies": {
+    "assemble": "^0.3.83",
+    "grunt": "^0.4.5",
+    "styles": "^0.2.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.3.1",
+    "cssnano": "^4.1.10",
+    "parcel": "^2.6.0",
+    "sass": "^1.26.11"
+  },
+  "private": true
+}

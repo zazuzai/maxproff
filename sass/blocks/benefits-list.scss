@@ -1,0 +1,36 @@
+.benefits-list {
+  list-style-type: none;
+  margin-top: 55px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 40.26% 47.89%;
+  row-gap: 20px;
+  column-gap: 11%;
+
+}
+
+.benefits-list__item {
+  min-height: 115px;
+  padding-top: 76px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.benefits-list__item--free {
+  background-image: url(/img/benefit-free.svg);
+}
+
+.benefits-list__item--pay {
+  background-image: url(/img/benefit-pay.svg);
+}
+
+.benefits-list__item--visit {
+  background-image: url(/img/benefit-visit.svg);
+}
+
+.benefits-list__item--guarantee {
+  background-image: url(/img/benefit-guarantee.svg);
+}

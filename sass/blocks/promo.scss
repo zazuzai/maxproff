@@ -1,0 +1,52 @@
+.promo {
+  margin-top: 30px;
+  background: linear-gradient(90deg, #ffffff 5%, rgba(255, 255, 255, .4) 95%),
+  url(/img/promo-bg-middle.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.promo__container {
+  padding-top: 43px;
+}
+
+.promo__title {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 40px;
+  text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    font-size: 52px;
+    line-height: 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+
+.promo__price {
+  margin: 24px 0 0 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.promo__summ {
+  padding: 6px 6px 0;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 60px;
+  color: #ffffff;
+  background-color: $color-btn;
+  border-radius: 10px;
+}
+
+.promo__benefits {
+  width: 408px;
+}
